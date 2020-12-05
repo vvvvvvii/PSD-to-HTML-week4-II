@@ -1,0 +1,10 @@
+@import "bootstrap/bootstrap"; 
+@import "mixin"; 
+@import "base"; //body,img,ol,ul
+
+@import "utils"; //自己做的通用設定如 border 等
+
+@import "components/info"; //自己做的 info 元件
+
+@import "pages/layout";
+@import "pages/index";
