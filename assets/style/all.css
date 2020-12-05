@@ -10732,8 +10732,9 @@ ul, ol {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
-  text-decoration: none; }
+  position: relative; }
+  .info-link:hover {
+    text-decoration: none; }
 
 .info-img {
   position: absolute;
