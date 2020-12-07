@@ -12,13 +12,13 @@
   line-height: $pagination-line-height;
   color: $pagination-color;
   background-color: $pagination-bg;
-  border: 0 solid $pagination-border-color;
+  border: 1px solid $pagination-border-color;
 
   &:hover {
     z-index: 2;
     color: $pagination-hover-color;
     background-color: $pagination-hover-bg;
-    border-color: $pagination-border-color;
+    text-decoration: none;
   }
 }
 

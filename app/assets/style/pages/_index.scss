@@ -21,13 +21,6 @@
     }
 }
 
-.icon-product{
-    width: 32px;
-    @include media-breakpoint-up(lg) {
-        width: 48px;
-    } 
-}
-
 .sort-link-height{
     height: 134px;
     @include media-breakpoint-up(md) { 
@@ -76,13 +69,6 @@
     font-size: 32px;
     @include media-breakpoint-up(lg){
         font-size: 72px;
-    }
-}
-
-.doubleA-img, .youth-img{
-    opacity: 0.5;
-    &:hover{
-        opacity: 0.4;
     }
 }
 

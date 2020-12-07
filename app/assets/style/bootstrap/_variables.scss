@@ -822,16 +822,16 @@ $pagination-padding-y-lg:           .75rem !default;
 $pagination-padding-x-lg:           1.5rem !default;
 $pagination-line-height:            1.25 !default;
 
-$pagination-color:                  $accent !default;
-$pagination-bg:                     $white !default;
+$pagination-color:                  $secondary !default;
+$pagination-bg:                     $accent !default;
 $pagination-border-width:           $border-width !default;
-$pagination-border-color:           $gray-300 !default;
+$pagination-border-color:           $secondary !default;
 
 $pagination-focus-box-shadow:       $input-btn-focus-box-shadow !default;
 $pagination-focus-outline:          0 !default;
 
-$pagination-hover-color:            $light-primary !default;
-$pagination-hover-bg:               $white !default;
+$pagination-hover-color:            $accent !default;
+$pagination-hover-bg:               $secondary !default;
 $pagination-hover-border-color:     $light-primary !default;
 
 $pagination-active-color:           $component-active-color !default;

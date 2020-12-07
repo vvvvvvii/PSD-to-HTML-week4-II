@@ -1,7 +1,9 @@
 .info-link{
     @include flex-center-center;
     position: relative;
-    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 .info-img{
