@@ -10732,11 +10732,13 @@ ul, ol {
   -webkit-padding-start: 0;
           padding-inline-start: 0; }
 
+a:hover {
+  text-decoration: none; }
+
 .a-primary {
   color: #AA0601; }
   .a-primary:hover {
-    color: #650300;
-    text-decoration: none; }
+    color: #650300; }
 
 .display-inline-middle {
   display: inline;
@@ -10832,8 +10834,6 @@ ul, ol {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative; }
-  .info-link:hover {
-    text-decoration: none; }
 
 .info-img {
   position: absolute;
@@ -11188,5 +11188,26 @@ ul, ol {
   /*沒寫的話螢幕縮到 1199 以下時會跟上面的字疊在一起*/
   bottom: 0;
   right: 0; }
+
+.tag-icon {
+  width: 24px; }
+  @media (min-width: 992px) {
+    .tag-icon {
+      width: 48px; } }
+
+.share-icon {
+  width: 20px; }
+  @media (min-width: 992px) {
+    .share-icon {
+      width: 24px; } }
+
+.page-icon {
+  width: 16px; }
+  @media (min-width: 768px) {
+    .page-icon {
+      width: 20px; } }
+  @media (min-width: 992px) {
+    .page-icon {
+      width: 24px; } }
 
 /*# sourceMappingURL=all.css.map */
