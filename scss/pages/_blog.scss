@@ -1,0 +1,48 @@
+.blog-list-content{
+    padding-top: 24px;
+    padding-bottom: 56px;
+    @include media-breakpoint-up(md){
+        padding-top: 40px;
+        padding-bottom: 104px;
+    }
+    @include media-breakpoint-up(lg){
+        padding-top: 82px;
+        padding-bottom: 156px;
+    }
+}
+
+.publish-date{
+    opacity: 0.7;
+}
+
+.blog-content-link{
+    position: absolute;
+    top: 340px; /*沒寫的話螢幕縮到 1199 以下時會跟上面的字疊在一起*/
+    bottom: 0;
+    right: 0;
+}
+
+.tag-icon{
+    width: 24px;
+    @include media-breakpoint-up(lg){
+        width: 48px;
+    }
+}
+
+.share-icon{
+    width: 20px;
+    @include media-breakpoint-up(lg){
+        width: 24px;
+    }
+}
+
+.page-icon{
+    width: 16px;
+    @include media-breakpoint-up(md){
+        width: 20px;
+    }
+    @include media-breakpoint-up(lg){
+        width: 24px;
+    }
+}
+

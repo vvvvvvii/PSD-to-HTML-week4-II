@@ -1,0 +1,93 @@
+.banner{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true");
+    @include bg-image-center-cover;
+    height: 394px;
+    padding-top: 164px;
+    @include media-breakpoint-up(md){
+        background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true");
+        height: 840px;  
+        padding-top: 372px;
+    }
+    @include media-breakpoint-up(lg){
+        padding-top: 350px;
+    }
+}
+
+.icon-feature{
+    width: 80px;
+    margin: 0 auto;
+    @include media-breakpoint-up(lg){
+        width: 100px;
+    }
+}
+
+.sort-link-height{
+    height: 134px;
+    @include media-breakpoint-up(md) { 
+        height: 168px;
+    }
+    @include media-breakpoint-up(lg) {
+        height: 320px;
+    }
+}
+
+.optical-img{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-1.png?raw=true");
+}
+
+.sunglasses-img{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-2.png?raw=true");
+}
+
+.functional-img{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-3.png?raw=true");
+}
+
+.sub-banner{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true");
+    @include bg-image-center-cover;
+    height: 696px;
+    @include media-breakpoint-up(md) { 
+        height: 437px;
+    }
+    @include media-breakpoint-up(lg) {
+        height: 743px;
+    } 
+}
+
+.sub-banner-link-height{
+    height: 284px;
+    @include media-breakpoint-up(md) { 
+        height: 280px;
+    }
+    @include media-breakpoint-up(lg) {
+        height: 472px;
+    }
+}
+
+.sub-banner-title{
+    font-size: 32px;
+    @include media-breakpoint-up(lg){
+        font-size: 72px;
+    }
+}
+
+.doubleA-img{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true");
+}
+
+.youth-img{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true");
+}
+
+.feedbackSubmit{
+    display: block;
+    margin: 0 auto;
+    padding: 8px 54.5px;
+    @include media-breakpoint-up(md) { 
+        padding: 8px 78px;
+    }
+    @include media-breakpoint-up(lg) {
+        padding: 16px 143px;
+    } 
+}

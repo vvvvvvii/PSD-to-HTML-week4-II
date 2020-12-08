@@ -1,0 +1,11 @@
+.contact-icon{
+    width: 20px;
+}
+
+.height-distriction{
+    height: 164px;
+    @include media-breakpoint-up(lg){
+        height: 224px;
+    }
+}
+
