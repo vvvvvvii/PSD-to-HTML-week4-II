@@ -2,14 +2,9 @@
     background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true");
     @include bg-image-center-cover;
     height: 394px;
-    padding-top: 164px;
     @include media-breakpoint-up(md){
         background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true");
         height: 840px;  
-        padding-top: 372px;
-    }
-    @include media-breakpoint-up(lg){
-        padding-top: 350px;
     }
 }
 

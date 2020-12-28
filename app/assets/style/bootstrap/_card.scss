@@ -12,7 +12,6 @@
   background-color: $card-bg;
   background-clip: border-box;
   border: $card-border-width solid $card-border-color;
-  @include border-radius($card-border-radius);
 
   &:hover{
     transition: box-shadow .25s;
@@ -70,7 +69,18 @@
 }
 
 .card-text{
-  font-size: $font-size-sm;
+  margin-bottom: 16px;
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 8px;
+  }
+}
+
+.card-info{
+  font-size: 14px;
+  margin-bottom: 16px;
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 8px;
+  }
 }
 
 .card-text:last-child {

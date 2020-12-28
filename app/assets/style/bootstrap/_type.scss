@@ -21,6 +21,7 @@ h5, .h5 { @include font-size($h5-font-size); }
 h6, .h6 { @include font-size($h6-font-size); }
 .h7 { @include font-size($h7-font-size); }
 .h8 { @include font-size($h8-font-size); }
+.h9 { @include font-size($h9-font-size); }
 
 /*@include media-breakpoint-up(sm) { ... }
 @include media-breakpoint-up(md) { ... }
@@ -68,6 +69,11 @@ h6, .h6 { @include font-size($h6-font-size); }
     @include font-size($h8-font-size); 
   }
 }
+.h9-md{ 
+  @include media-breakpoint-up(md){
+    @include font-size($h9-font-size); 
+  }
+}
 
 .h1-lg{ 
   @include media-breakpoint-up(lg){
@@ -107,6 +113,11 @@ h6, .h6 { @include font-size($h6-font-size); }
 .h8-lg{ 
   @include media-breakpoint-up(lg){
     @include font-size($h8-font-size); 
+  }
+}
+.h9-lg{ 
+  @include media-breakpoint-up(lg){
+    @include font-size($h9-font-size); 
   }
 }
 

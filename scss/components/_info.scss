@@ -1,0 +1,13 @@
+.info-link{
+    @include flex-center-center;
+    position: relative;
+}
+
+.info-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    @include bg-image-center-cover;
+}

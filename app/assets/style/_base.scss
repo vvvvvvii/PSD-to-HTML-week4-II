@@ -10,3 +10,11 @@ ul, ol{
     list-style: none;
     padding-inline-start: 0;
 }
+
+a{
+    display: block;
+}
+
+a:hover{
+    text-decoration: none;
+}

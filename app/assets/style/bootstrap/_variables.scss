@@ -12,7 +12,7 @@ $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
-$gray-700: #495057 !default;
+$gray-700: #707070 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
@@ -69,7 +69,7 @@ $secondary:    $black !default;
 $accent:       $white !default;
 
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          #555555 !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
@@ -90,6 +90,7 @@ $theme-colors: map-merge(
     "danger":     $danger,
     "light":      $light,
     "dark":       $dark,
+    "gray-700":       $gray-700,
     
     "accent":    $accent,
 
@@ -324,6 +325,7 @@ $h5-font-size:                $font-size-base * 1.75 !default; //28
 $h6-font-size:                $font-size-base * 1.5 !default; //24
 $h7-font-size:                $font-size-base * 1.25 !default; //20
 $h8-font-size:                $font-size-base !default; //16
+$h9-font-size:                $font-size-base * .875  !default; //14
 
 $headings-margin-bottom:      $spacer / 2 !default;
 $headings-font-family:        null !default;
