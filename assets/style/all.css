@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -11221,7 +11220,10 @@ a:hover {
   border: 1px solid #DCDCDC; }
 
 .product-nav-title {
-  font-size: 14px; }
+  font-size: 14px;
+  color: #000; }
+  .product-nav-title:hover {
+    color: #AA0601; }
   @media (min-width: 768px) {
     .product-nav-title {
       font-size: 28px; } }
@@ -11253,6 +11255,13 @@ a:hover {
 .light {
   background-color: #B75929; }
 
+.tab-banner {
+  height: 144px; }
+  @media (min-width: 768px) {
+    .tab-banner {
+      width: 49.21%;
+      height: 309px; } }
+
 .bg-location-faq {
   background-image: url("https://github.com/vvvvvvii/PSD-to-HTML-week3/blob/main/img/72.png?raw=true");
   background-position: center;
@@ -11282,7 +11291,9 @@ a:hover {
   width: 20px; }
 
 .height-distriction {
-  height: 164px; }
+  height: 164px;
+  -o-object-fit: cover;
+     object-fit: cover; }
   @media (min-width: 992px) {
     .height-distriction {
       height: 224px; } }
@@ -11304,8 +11315,6 @@ a:hover {
 
 .blog-content-link {
   position: absolute;
-  top: 340px;
-  /*沒寫的話螢幕縮到 1199 以下時會跟上面的字疊在一起*/
   bottom: 0;
   right: 0; }
 
