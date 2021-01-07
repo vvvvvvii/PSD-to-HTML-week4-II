@@ -11,6 +11,10 @@
 
 .product-nav-title{
     font-size: 14px;
+    color: $secondary;
+    &:hover{
+        color: $primary;
+    }
     @include media-breakpoint-up(md){
         font-size: 28px;    
     }
@@ -46,4 +50,12 @@
 
 .light{
     background-color: #B75929;
+}
+
+.tab-banner{
+    height: 144px;
+    @include media-breakpoint-up(md){
+        width: 49.21%;
+        height: 309px;  
+    }
 }

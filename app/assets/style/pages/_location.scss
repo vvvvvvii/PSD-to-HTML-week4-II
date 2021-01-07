@@ -4,6 +4,7 @@
 
 .height-distriction{
     height: 164px;
+    object-fit: cover;
     @include media-breakpoint-up(lg){
         height: 224px;
     }

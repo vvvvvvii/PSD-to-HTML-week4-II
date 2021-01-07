@@ -35,13 +35,6 @@
     }
 }
 
-.tab-banner{
-    height: 144px;
-    @include media-breakpoint-up(md){
-        height: 309px;  
-    }
-}
-
 .section{
     padding-top: 30px;
     padding-bottom: 56px;
